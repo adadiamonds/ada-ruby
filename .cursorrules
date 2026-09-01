@@ -1,0 +1,10 @@
+# Cursor rules for this Ada Diamonds SDK
+
+This repository is an official Ada Diamonds API client. See AGENTS.md for the
+canonical agent resources. Key rules:
+
+- Source of truth for the API surface: https://www.adadiamonds.com/openapi.json. If this code and the spec disagree, fix the code.
+- Never invent endpoints, parameters, scopes, or prices.
+- Prices are US dollars as decimals, never cents.
+- An engagement ring is a setting plus a loose diamond, priced separately.
+- The full agent toolkit (plugin manifest, skills, MCP configs) lives at https://github.com/adadiamonds/agent-tools.
